@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Flip Clock — Support</title>
+<meta name="description" content="Help with Flip Clock: alarms, night mode, widgets, and how to get in touch.">
+<style>
+  :root { color-scheme: light dark; --accent: #B47700; }
+  body {
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;
+    max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+    color: #16181d; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --accent: #F0AE3C; }
+    body { color: #e6e8ec; background: #0A0A0B; }
+    code { background: #22262e; }
+    .card { background: #14161a; border-color: #2c313a; }
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin-bottom: .25rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.25rem; margin-top: 2.25rem; letter-spacing: -.01em; }
+  h3 { font-size: 1rem; margin-top: 1.5rem; margin-bottom: .3rem; }
+  a { color: var(--accent); }
+  code { background: #f1f2f5; padding: .1em .35em; border-radius: 3px; font-size: .9em; }
+  ul { padding-left: 1.15rem; }
+  li { margin-bottom: .45rem; }
+  .meta { color: #6b7280; }
+  .back { display: inline-block; margin-bottom: 1.5rem; text-decoration: none; }
+  .card {
+    border: 1px solid #e2e5ea; border-radius: 10px;
+    padding: 1rem 1.15rem; margin: 1.25rem 0; background: #fafbfc;
+  }
+  .card p:first-child { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body>
+
+<a class="back" href="./">← Flip Clock</a>
+
+<h1>Flip Clock — Support</h1>
+
+<p class="meta">Mantrabrain · <a href="mailto:rsunar@imstillkicking.com">rsunar@imstillkicking.com</a></p>
+
+<div class="card">
+  <p>
+    Email is the fastest way to reach a person, and a real one answers. If
+    something is wrong, say which phone and which version — Settings, at the
+    bottom — and it saves a round trip.
+  </p>
+</div>
+
+<h2>Alarms</h2>
+
+<h3>The alarm did not ring</h3>
+<p>
+  On iOS, Flip Clock asks permission to ring the first time you create an
+  alarm. If that was refused, the alarm is saved but cannot sound. Turn it back
+  on in <strong>Settings → Flip Clock → Alarms</strong>; the app books
+  everything again on its own as soon as it is allowed.
+</p>
+<p>
+  On Android, check that <strong>Alarms &amp; reminders</strong> is allowed
+  under the app's permissions. Some manufacturers also have a separate battery
+  setting that has to be set to Unrestricted for alarms to survive overnight.
+</p>
+
+<h3>Does it ring on Silent?</h3>
+<p>
+  On iOS 26 and later, yes — Flip Clock uses real system alarms, the same kind
+  the built-in Clock app uses, so they sound through Silent and through Focus.
+  On Android the alarm rings over the lock screen and wakes the display.
+</p>
+
+<h3>Snooze</h3>
+<p>
+  Snooze length is per alarm, in the alarm's own row. A snooze does not survive
+  restarting the phone, which is deliberate: alarms are rebuilt from your rules
+  after a restart, and a snooze is not one of them.
+</p>
+
+<h2>Leaving it running</h2>
+
+<h3>Will it burn my screen?</h3>
+<p>
+  Burn-in protection is on by default. The clock shifts a little every so often
+  so no pixel holds a shape all night, and it rests between moves rather than
+  animating, so it costs almost nothing to leave on.
+</p>
+
+<h3>It is too bright at night</h3>
+<p>
+  Night mode dims well below the system's own minimum brightness, and warms the
+  display towards red. Set the hours under <strong>Night</strong> in Settings.
+  If it is still too bright, lower the night level — it goes much further down
+  than the system slider will let you.
+</p>
+
+<h3>The screen turns off while docked</h3>
+<p>
+  Turn on <strong>Keep the screen on</strong>. There is a second option to stop
+  doing that when unplugged, so it will not flatten the battery in a bag.
+</p>
+
+<h2>Widgets and the screensaver</h2>
+<p>
+  These are Android features. iOS has no equivalent for any of them, so they do
+  not appear in Settings there — rather than sitting in the list doing nothing.
+</p>
+<p>
+  On Android, add the widget from inside the app under
+  <strong>Add the home screen widget</strong>, which is more reliable than
+  hunting through the widget drawer. For the screensaver, go to
+  <strong>Settings → Display → Screensaver</strong> on your phone and pick Flip
+  Clock.
+</p>
+
+<h2>Weather</h2>
+<p>
+  Weather is off until you switch it on, and it never asks for location
+  permission. It looks up the cities you chose from the list, sends a latitude
+  and a longitude to Open-Meteo, and nothing else. See the
+  <a href="privacy.html">privacy policy</a>.
+</p>
+
+<h2>Refunds</h2>
+<p>
+  Purchases are handled by Apple and Google, so refunds go through them rather
+  than through us — <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>
+  for the App Store. If the app did something wrong, write anyway: it is useful
+  to know.
+</p>
+
+<h2>Something else</h2>
+<p>
+  <a href="mailto:rsunar@imstillkicking.com">rsunar@imstillkicking.com</a>.
+  Feature requests are welcome and read, and quite a lot of what is in the app
+  arrived that way.
+</p>
+
+</body>
+</html>
